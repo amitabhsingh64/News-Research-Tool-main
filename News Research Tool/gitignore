@@ -1,0 +1,26 @@
+# Ignore environment variables
+.env
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore package directories
+venv/
+env/
+node_modules/
+
+# Ignore dataset and model files
+*.pkl
+*.h5
+*.onnx
+*.tflite
+
+# Ignore log files
+logs/
+*.log
